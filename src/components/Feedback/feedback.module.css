@@ -1,0 +1,50 @@
+.feedbackButtons {
+  justify-content: space-evenly;
+  display: flex;
+}
+.btngood {
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: greenyellow;
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.btnneutral {
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: yellow;
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.btnbad {
+  width: 150px;
+  height: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  background-color: red;
+  font-size: 24px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.btngood:hover {
+  opacity: 0.7;
+  background: rgba(88, 165, 0, 0.836);
+  transition-duration: 350ms;
+}
+.btnneutral:hover {
+  opacity: 0.7;
+  background: rgba(119, 121, 1, 0.664);
+  transition-duration: 350ms;
+}
+.btnbad:hover {
+  opacity: 0.9;
+  background: rgba(129, 0, 0, 0.836);
+  transition-duration: 350ms;
+}
